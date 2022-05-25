@@ -1,0 +1,47 @@
+.app {
+  background: #282c34;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.todo-sList {
+  background: #eee;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+  min-width: 280px;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 0.8em;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #444;
+}
+
+.input {
+  min-height: 20px;
+  padding: 3px 10px;
+  width: 90%;
+}
+
+.delete-button {
+  margin-sLeft: 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  align-items: center;
+  background: red;
+  color: #fff;
+  font-size: 0.9em;
+}
